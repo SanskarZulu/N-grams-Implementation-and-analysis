@@ -1,3 +1,5 @@
+# AI Pracrical Exam: 
+# By Sanskar 
 # N-Gram Language Model
 Python implementation of an N-gram language model with Laplace smoothing and sentence generation. 
 
@@ -26,19 +28,3 @@ Model perplexity: 51.555
 The numbers in parentheses beside the generated sentences are the cumulative probabilities of those sentences occurring.
 
 ---
-
-Usage info:
-```
-usage: N-gram Language Model [-h] --data DATA --n N [--laplace LAPLACE] [--num NUM]
-
-optional arguments:
-  -h, --help         show this help message and exit
-  --data DATA        Location of the data directory containing train.txt and test.txt
-  --n N              Order of N-gram model to create (i.e. 1 for unigram, 2 for bigram, etc.)
-  --laplace LAPLACE  Lambda parameter for Laplace smoothing (default is 0.01 -- use 1 for add-1 smoothing)
-  --num NUM          Number of sentences to generate (default 10)
-```
-
----
-
-Originally authored by Josh Loehr and Robin Cosbey, with slight modifications. Last edited Feb. 8, 2018. 
