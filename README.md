@@ -1,7 +1,7 @@
 # AI Pracrical Exam: 
 By Sanskar.
 N-Gram Language Model.
-# Python implementation of an N-gram language model with Laplace smoothing and sentence generation. 
+# Python implementation of an N-gram language model with Laplace smoothing, sentence generation and Performance & Complexity Analysis. 
 
 Some NLTK functions are used (`nltk.ngrams`, `nltk.FreqDist`), but most everything is implemented by hand.
 
